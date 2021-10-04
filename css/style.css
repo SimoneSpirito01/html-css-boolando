@@ -6,3 +6,35 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 80%;
+    margin: 15px auto;
+}
+
+.box {
+    width: calc((100% - 30px) / 3);
+    float: left;
+    margin-bottom: 25px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mar-15 {
+    margin: 0 15px;
+}
+
+
+/* debug */
+
+.debug.container {
+    background-color: lightgrey;
+}
+
+.debug .box {
+    height: 500px;
+    background-color: lightsalmon;
+}
