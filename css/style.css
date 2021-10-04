@@ -16,7 +16,6 @@
     width: calc((100% - 30px) / 3);
     float: left;
     margin-bottom: 25px;
-    position: relative;
 }
 
 .clearfix::after {
@@ -29,7 +28,7 @@
     margin: 0 15px;
 }
 
-/* content */
+/* prodotti */
 
 .box img {
     width: 100%;
@@ -37,7 +36,11 @@
     object-fit: cover;
 }
 
-.box span {
+.img-prodotto {
+    position: relative;
+}
+
+.descrizione span {
     font-size: 11px;
 }
 
@@ -60,6 +63,8 @@
     text-decoration: line-through;
 }
 
+/* tag */
+
 .heart {
     width: 40px;
     height: 40px;
@@ -71,6 +76,38 @@
     position: absolute;
     right: 0;
     top: 20px;
+}
+
+.tag {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.sconto {
+    width: 40px;
+    background-color: red;
+}
+
+.sostenibilita {
+    width: 90px;
+    background-color: green;
+}
+
+.sx {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.dx {
+    position: absolute;
+    left: 42px;
+    bottom: 20px;
 }
 
 /* debug */
