@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 15px auto;
 }
 
@@ -34,13 +35,31 @@
     position: relative;
 }
 
+.descrizione {
+    line-height: 12px;
+}
+
+.box span {
+    font-size: 11px;
+}
+
+.box h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    
+}
+
+.prezzo-scontato {
+    font-weight: bold;
+    color: red;
+}
+
+.prezzo-originario {
+    text-decoration: line-through;
+}
+
 /* debug */
 
 .debug.container {
     background-color: lightgrey;
-}
-
-.debug .box {
-    height: 600px;
-    background-color: lightsalmon;
 }
